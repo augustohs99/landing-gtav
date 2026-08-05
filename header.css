@@ -1,0 +1,38 @@
+header{
+    color: white;
+    background-color: black;
+
+
+    padding: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+
+    color: white;
+    text-decoration: none;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.div-logo{
+    height: 100px;
+    width: 100px;
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+}
