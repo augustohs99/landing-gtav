@@ -3,10 +3,8 @@
 .sec-personajes{
     font-size: 30px;
 
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 50px;
     width: 90%;
-    background-color: black;
 
     display: flex;
     flex-direction: column;
@@ -14,6 +12,7 @@
 }
 
 .sec-personajes h2{
+    text-shadow: 0px 5px black;
     padding-bottom: 20px;
 }
 
@@ -21,8 +20,9 @@
     font-size: 25px;
 }
 
-.sec-personajes article{
-    padding-bottom: 200px;
+
+article{
+    align-items: center;
 }
 
 /*TEXTO E IMAGENES*/
@@ -52,12 +52,16 @@
 /*MICHAEL*/
 
 .personajes{
-    padding-top: 20px;
+    padding: 60px;
     width: 90%;
+    margin: 0;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    background-color: black;
+    margin-bottom: 150px;
 }
 
 #michael h3{
@@ -72,7 +76,9 @@
 }
 
 
+
 /*TREVOR*/
+
 
 #trevor h3{
     color: #D08A2E;
