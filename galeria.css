@@ -1,0 +1,14 @@
+.sec-galeria{
+    width: 70%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;  
+}
