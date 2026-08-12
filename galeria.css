@@ -1,6 +1,12 @@
+.sec-galeria h2{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
 .sec-galeria{
-    width: 70%;
+    width: 80%;
     height: auto;
+    padding-bottom: 100px;
 
     display: flex;
     flex-direction: column;
@@ -8,7 +14,20 @@
 }
 
 .imagenes{
+
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;  
+}
+
+.imagen-galeria img{
+    aspect-ratio: 16 / 9;
+    max-width: 100%;
+    object-fit: cover;
+    transition: transform 300ms;
+}
+
+.imagen-galeria img:hover{
+    transform: scale(1.05);
 }
