@@ -2,9 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    font-size: 45px;
-    text-shadow: 0 5px black;
 }
 
 .sec-trailer{
@@ -15,6 +12,7 @@
 
     padding-top: 200px;
     margin-bottom: 100px;
+    width: 70%;
 }
 
 .trailer{
@@ -22,11 +20,11 @@
     flex-direction: column;
     align-items: center;
 
-    width: 80%;
+    width: 100%;
 }
 
 iframe{
-    width: 80%;
+    width: 100%;
     aspect-ratio: 16/9;
     height: auto;
 }
