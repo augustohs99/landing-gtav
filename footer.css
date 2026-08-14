@@ -1,0 +1,29 @@
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f_izq{
+    padding-left: 20px;
+}
+
+.f_der{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+    padding-right: 20px;
+}
+
+.f_izq a{
+    font-size: 15px;
+}
+
+.f_der a{
+    font-size: 15px;
+}
