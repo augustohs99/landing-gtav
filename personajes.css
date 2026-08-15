@@ -20,9 +20,6 @@
 }
 
 
-article{
-    align-items: center;
-}
 
 /*TEXTO E IMAGENES*/
 
@@ -66,6 +63,10 @@ article{
 #michael h3{
     color: #4A7FB8;
     font-size: 25px;
+}
+
+#michael{
+    scroll-margin-top: 150px;
 }
 
 /*FRANKLIN*/

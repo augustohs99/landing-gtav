@@ -1,16 +1,10 @@
-.sec-trailer h2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .sec-trailer{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    padding-top: 200px;
+
     margin-bottom: 100px;
     width: 70%;
 }
